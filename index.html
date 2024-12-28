@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+  <head>
+<style>body{
+  background-image:image("images/Woman-Yelling-At-Cat.jpg");
+}</style>
+    <!-- Bootstrap start-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <!-- Bootstrap end-->
+    <!-- font-->
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Thambi+2&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+    <div class="header">
+      <div class="container">
+        <img src="">
+        <h1 style="font-family: 'Baloo Thambi 2', cursive;">Create Your Own Memes</h1>
+      </div>
+    </div>
+    <div class="main">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="meme thumbnail">
+              <h1 class="top-caption" style="font-family: 'Baloo Thambi 2', cursive; size:14pt">The teacher giving the whole class detention for talking and not completing their work</h1>
+              <img class="meme" src="./images/Woman-Yelling-At-Cat.jpg" style="float: right" >
+              <h1 class="bottom-caption"style="font-family: 'Baloo Thambi 2', cursive; size:14pt">The one kid silently doing all his work</h1>
+            </div>
+          </div>
+          <div class="col-md-6">
+
+            <div class="tool">
+              <h2>Create a meme</h2>
+              <form role="form">
+                <div class="form-group">
+                  <label>Image URL</label>
+                  <input id="image-url" type="text" class="form-control">
+                </div>
+                <div class="form-group">
+                  <label>Top text</label>
+                  <input id="top-text" type="text" class="form-control">
+                </div>
+                <div class="form-group">
+                  <label>Bottom text</label>
+                  <input id="bottom-text" type="text" class="form-control">
+                </div>
+              </form>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="jquery.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
